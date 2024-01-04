@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login aladin shop </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <button onclick="redirectToPage()">Login</button>
+
+        <script>
+          function redirectToPage() {
+            // Specify the URL of the page you want to redirect to
+            var redirectUrl = "file:///C:/xampp/htdocs/samiol/Navigationbar.html";
+            
+            // Redirect to the specified URL
+            window.location.href = redirectUrl;
+          }
+        </script>
+      
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html> 
